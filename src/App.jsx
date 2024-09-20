@@ -20,16 +20,6 @@ function App() {
   <>
    <Router>
         <Routes>
-          <Route path="/" element={<LoginPage />} />
-          <Route path="/admin/draft-view" element={<AdminDraftView />} />
-          <Route path="/admin/order-page" element={<OrderPage />} />
-          <Route path="/admin/resturant-details" element={<ResturantDetails />} />
-          <Route path="/admin/all-reservations" element={<AllReservations />} />
-          <Route path="/admin/reservation-notification" element={<ReservationNotification />} />
-          <Route path="/admin/reservation-details" element={<ReservationDetails />} />
-          <Route path="/admin/admin-settings" element={<AdminSettings />} />
-          <Route path="/admin/add-promotion" element={<AddPromotionPage />} />
-          <Route path="/admin/additional-assets" element={<AdditionalAssets />} />
           <Route path="/super-admin/draft-view" element={<SuperAdminDraftView />} />
           <Route path="/super-admin/manage-vendor" element={<ManageVendor />} />
           <Route path="/super-admin/add-vendor" element={<AddNewVendor />} />
